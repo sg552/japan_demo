@@ -1,0 +1,33 @@
+# 安装方式
+
+1. 安装ruby,  1.9.3
+2. 安装bundler
+
+```
+$ gem install bundler
+```
+3. 安装其他gem:
+
+```
+$ bundler install
+```
+4. 运行god:
+```
+$ god -c control.rb
+```
+5. 运行socket server:
+```
+$ ruby socket_server.rb
+
+或者，使用 nohup 的方式：
+
+$ nohup ruby socket_server.rb &
+```
+
+6. 运行socket client测试：
+
+```
+$ ruby test_socket.rb
+```
+
+
